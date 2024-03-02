@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Citações</title>
+    <link rel="stylesheet" href="ref.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@300">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <h1>Gerador de Citações</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Livro</a></li>
+                <li><a href="#">Filme</a></li>
+                <li><a href="#">Site</a></li>
+                <li><a href="#">Revistas</a></li>
+                <li><a href="#">Artigo Científico</a></li>
+                <li><a href="#">Frases Memoráveis</a></li>
+            </ul>
+        </nav>
+        <section class="content">
+            <div class="gerador">
+                <form action="">
+                    <label for="citation-title">Título
+                        <input type="text" id="citation-title" name="citation-title" required>
+                    </label>
+                    <label for="citation-city">Cidade
+                        <input type="text" id="citation-city" name="citation-city">
+                    </label>
+                    <label for="citation-publisher">Editora
+                        <input type="text" id="citation-publisher" name="citation-publisher">
+                    </label>
+                    <label for="citation-year">Ano
+                        <input type="text" id="citation-year" name="citation-year">
+                    </label>
+                    <label for="citation-pages">Número de páginas
+                        <input type="text" id="citation-pages" name="citation-pages" required>
+                    </label>
+                    <label for="citation-edition">Número da Edição
+                        <input type="text" id="citation-edition" required>
+                    </label>
+                    <div class="estilo">
+                        <button id="generate-button">Gerar Citação</button>
+                    </div>
+                </form>
+            </div>
+            <div class="resultado">
+                <div class="pesquisa">
+                    <input type="text" id="pesquisa-input" placeholder="Pesquisar citação" />
+                    <button type="submit" id="pesquisa-button">Buscar</button>
+                </div>
+                <h2>Resultados</h2>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

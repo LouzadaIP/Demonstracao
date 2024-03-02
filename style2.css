@@ -1,0 +1,39 @@
+h1,
+h3 {
+  color: red;
+}
+
+h1 em,
+h3 em {
+  font-size: 40px;
+  border: 1px black solid;
+}
+
+ol {
+  background-color: yellow;
+  font-weight: bold ;
+}
+
+li {
+  font-size: 20px;
+}
+
+ol li:nth-child(even) {
+  color: green;
+}
+
+ol li:nth-child(odd) {
+  text-transform: lowercase;
+}
+
+.color li:nth-child(-1n + 3) {
+  color: blue;
+}
+
+.color .cor-pinkk{
+    background-color: pink;
+}
+
+.color .cor-pink{
+    background-color: pink;
+}

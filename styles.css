@@ -1,0 +1,57 @@
+h2 {
+  color: red;
+}
+
+#titulo-principal {
+  border-top: 3px solid green;
+  border-right: 3px dashed black;
+  border-left: 3px dashed black;
+
+}
+
+.titulo-terciario {
+  font-family: 'Black Ops One', cursive;
+}
+
+ul > li, ol > li {
+  color: yellow;
+}
+
+.titulo-terciario ~ p {
+  color: red
+}
+
+* {
+  color: blue;
+}
+
+h1{
+  color: blue;
+  transition: all 1s;
+  position: fixed;
+}
+
+h1:hover{
+  font-size: 40px;
+  color: brown;
+  
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 30px 10px 30px;
+}
+
+button:disabled {
+  color: red
+}
+
+body{
+  margin: 0 auto;
+  width: 90%;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.logo-ads{
+  margin-left: 120px;
+}

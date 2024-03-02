@@ -1,0 +1,135 @@
+:root {
+    --main-bg-color: #F8F9FA;
+    --accent-color: #6C757D;
+    --dark-text-color: #343A40;
+    --light-text-color: #FFFFFF;
+    --input-border-color: #CED4DA;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+
+header {
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--light-text-color);
+    font-weight: bold;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gerador label {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gerador input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+button {
+    margin-left: 10px;
+    height: 44px;
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--light-text-color);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #495057;
+    border-color: var(--accent-color);
+}
+
+.pesquisa {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#pesquisa-input {
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+#pesquisa-button {
+    flex: 0 0 100px;
+    box-sizing: border-box;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    background-color: #495057;
+    color: var(--light-text-color);
+    cursor: pointer;
+}
+
+.resultado {
+    border: 2px solid var(--input-border-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.resultado h2 {
+    margin-bottom: 20px;
+}
+
+.estilo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

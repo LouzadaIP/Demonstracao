@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Referências</title>
+    <link rel="stylesheet" href="ultima.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Poppins:wght@300">
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <div class="reference-type">
+                <h1>Qual Referencia esta procurando ?</h1>
+                <div class="options">
+                    <button>Livro</button>
+                    <button>Filme</button>
+                    <button>Site</button>
+                    <button>Revistas</button>
+                    <button>Artigo Científico</button>
+                    <button>Frases memoráveis</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="reference-generator">
+                    <form action="">
+                        <label for="reference-title">Titulo
+                            <input type="text" id="reference-title" name="reference-title" required>
+                        </label>
+                        <label for="reference-city">Cidade
+                            <input type="text" id="reference-city" name="reference-city">
+                        </label>
+                        <label for="reference-editory">Editora
+                            <input type="text" id="reference-editory" name="reference-editory">
+                        </label>
+                        <label for="reference-year">Ano
+                            <input type="text" id="reference-year" name="reference-editory">
+                        </label>
+                        <label for="reference-pages-number">Número de páginas
+                            <input type="text" id="reference-pages-number" name="reference-pages-number" required>
+                        </label>
+                        <label for="reference-edition-number">Número da ediçao
+                            <input type="text" id="reference-edition-number" required>
+                        </label>
+                        <div class="row">
+                            <button id="submit-button">Gerar Referência</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="reference-result">
+                    <div class="search-container">
+                        <input type="text" id="search-input" placeholder="Pesquisar referência" />
+                        <button type="submit " id="search-button">Buscar</button>
+                    </div>
+                    <h2>Resultados</h2>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
